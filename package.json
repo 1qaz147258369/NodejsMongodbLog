@@ -13,5 +13,8 @@
   ],
   "author": "hyq",
   "license": "GNU",
-  "git repository":"https://github.com/1qaz147258369/NodejsMongodbLog"
+  "git repository": "https://github.com/1qaz147258369/NodejsMongodbLog",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
