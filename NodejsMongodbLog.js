@@ -17,7 +17,7 @@ app.use('/',express.static('public'))
 app.get("/input",(req,res)=>{
     //res.send(req.query)
     console.log(req.query)
-    const kitty = new mydata({ name: req.query.first, health:req.query.second });
+    const kitty = new mydata({ name: req.query.number1, health:req.query.number2 });
     kitty.save()
     ejs.renderFile("result.html",{returnVal:"sucess"},(err,str)=>{
         res.send(str)
